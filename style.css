@@ -323,7 +323,7 @@ footer {
 }
 
 .corner-bottom-left {
-    bottom: -31.5vw;
+    bottom: -29.5vw;
     left: 0;
     border-bottom: 8px solid #e1c35b;
     border-left: 8px solid #e1c35b;
@@ -503,7 +503,8 @@ footer {
     }
 
     .about h1 {
-        font-size: 38px;
+        font-size: 45px;
+        margin: 0 20px 20px 20px;
     }
 
     .project-card p {
@@ -522,9 +523,6 @@ footer {
 
 
 @media (max-width: 450px) {
-    .about h1 {
-        font-size: 32px;
-    }
 
     .btn {
         padding: 10px 22px;
