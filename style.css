@@ -23,6 +23,11 @@ header {
     align-items: center;
 }
 
+.header-hr {
+    display: none;
+    width: 112%;
+}
+
 .logo {
     font-size: 28px;
     font-weight: 700;
@@ -105,9 +110,10 @@ main {
 .profile-photo img {
     width: 260px;
     object-fit: cover;
-    border-radius: 20px; /* borda consistente com teu design */
+    border-radius: 20px;
+    /* borda consistente com teu design */
     border: 4px solid #e1c35b;
-    box-shadow: 0 0 25px rgba(225,195,91,0.15);
+    box-shadow: 0 0 25px rgba(225, 195, 91, 0.15);
 }
 
 .profile-details {
@@ -460,7 +466,7 @@ footer {
     }
 
     .corner {
-       display: none;
+        display: none;
     }
 }
 
@@ -493,8 +499,25 @@ footer {
 
 
 @media (max-width: 600px) {
+    main {
+        margin: 20px 0;
+    }
+
+    .header-hr {
+        display: block;
+    }
+
     body {
         padding: 20px;
+    }
+
+    .socials {
+        margin-bottom: 15px;
+    }
+
+    .socials a {
+        font-size: 32px;
+        margin-right: 20px;
     }
 
     header {
